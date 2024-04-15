@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Title</title>
+</head>
+<body>
+<header class="header">
+    <div class="header_container container">
+        <div class="logo"></div>
+        <div class="navbar">
+            <a href="{%url 'about_game'%}" class="nav_about nav_link">About game</a>
+            <a href="{%url 'screenshot_page'%}" class="nav_screenshots nav_link">Screenshots</a>
+                        <a href="{%url 'video_page'%}" class="nav_videos nav_link">Videos</a>
+            <a href="{%url 'audio_page'%}" class="nav_audios nav_link">Audios</a>
+            <a href="{%url 'add_page'%}" class="nav_add nav_link">Add</a>
+        </div>
+    </div>
+</header>
+< class="wrapper">
+    <div class="block_container container">
+        <a href="{%url 'about_game'%}" class="about_game bblock">About game</a>
+        <a href="{%url 'screenshot_page'%}" class="screenshots bblock"> Screenshots</a>
+        <a href="{%url 'video_page'%}" class="videos bblock">Videos</a>
+        <a href="{%url 'audio_page'%}" class="audios bblock">Audios</a>
+        <a href="{%url 'add_page'%}" class="add bblock">Add</a>
+    </div>
+</div>
+</body>

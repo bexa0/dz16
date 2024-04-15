@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{%static 'style.css'%}">
+    <title>About</title>
+</head>
+<body>
+<header class="header">
+    <div class="header_container container">
+        <div class="logo">Warcraft</div>
+        <div class="navbar">
+            <a href="{%url 'index'%}" class="nav_home nav_link">Home</a>
+            <a href="{%url 'about_game'%}" class="nav_about nav_link">About game</a>
+            <a href="{%url 'screenshot_page'%}" class="nav_screenshots nav_link">Screenshots</a>
+            <a href="{%url 'video_page'%}" class="nav_videos nav_link">Videos</a>
+            <a href="{%url 'audio_page'%}" class="nav_audios nav_link">Audios</a>
+            <a href="{%url 'add_page'%}" class="nav_add nav_link">Add</a>
+        </div>
+    </div>
+</header>
+
+<div class="wrapper">
+    <div class="about_container container">
+        <a href="{%url 'index'%}">< Back</a>
+        <div class="about_block">
+            <div class="about_title">Warcraft III: Reign of Chaos</div>
+            <div class="about_text"> (Warcraft III была одной из наиболее ожидаемых игр: более 4,5 миллионов предварительных заказов и более одного миллиона копий игры, проданных менее чем за месяц, сделало её самой быстро распродаваемой ПК-игрой на тот момент. Она была встречена множеством положительных рецензий, а часть изданий отметили игру титулами «Лучшая игра года» и «Лучшая стратегия года». Также игра получила высокие оценки у игроков. В чарте еженедельных продаж от NPD Techworld игра занимала первое место два месяца.
+                    В отличие от предыдущих игр серии количество противоборствующих сторон увеличилось с двух до четырёх: кроме уже известных Альянса и Орды появилась возможность играть за две новые расы — Нежить и Ночных эльфов. Однако общий игровой процесс при этом не изменился — игроку всё так же нужно добывать ресурсы, отстраивать и улучшать базы и нанимать войска, с целью уничтожить армию противника. Нововведением стали герои — уникальные юниты, имеющие особые способности и способные получать опыт при убийстве воинов противника.</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
